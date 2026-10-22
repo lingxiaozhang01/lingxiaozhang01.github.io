@@ -41,14 +41,14 @@ export const projects: Project[] = [
       { title: '让活动被看见', text: '为后两场活动发布推广推文，合计约 1,000 次阅读。在不同现场持续调整练习设计。' },
       {
         title: '现场记录',
-        text: '已收集的 25 份活动体验评分中，平均 8.24 分（满分 10 分），其中 9 份给出满分，占 36%。',
+        text: '已收集的 24 份活动体验评分中，平均 8.17 分（满分 10 分），其中 8 份给出满分，占 33.3%。',
         links: [
           { label: '第二场活动推文', url: 'https://mp.weixin.qq.com/s/0eu-_krJLf64g3RHKATe5w' },
           { label: '第三场活动推文', url: 'https://mp.weixin.qq.com/s/iPuk-zL7l_bY0qSl8GLQTw' },
         ],
         images: [
           { src: '/assets/conflict-group.jpg', alt: '吵架活动现场参与者合照', caption: '活动现场合照' },
-          { src: '/assets/conflict-ratings.png', alt: '25 份活动体验评分的分布图，10 分评价合计 9 份', caption: '活动体验评分分布，共 25 份反馈' },
+          { src: '/assets/conflict-ratings-v2.png', alt: '24 份活动体验评分的分布图，10 分评价合计 8 份', caption: '活动体验评分分布，共 24 份反馈' },
           { src: '/assets/conflict-phrases.png', alt: '参与者印象最深的吵架金句词云', caption: '现场金句：参与者印象最深的一句话' },
         ],
       },
