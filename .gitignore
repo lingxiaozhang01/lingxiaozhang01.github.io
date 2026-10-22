@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.sites-local/
+*.tsbuildinfo
+*.tar.gz
+*.log
+.npm-cache/
