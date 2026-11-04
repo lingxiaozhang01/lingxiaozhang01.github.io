@@ -1,5 +1,23 @@
 @import "tailwindcss";
 
+.design-showcase{background:#f7f8f9;padding:0 48px 96px}
+.design-showcase-inner{max-width:1184px;margin:auto}
+.design-context{font-size:16px;font-weight:650;color:#121417;padding-bottom:12px;border-bottom:1px solid #ccd1d5}
+.design-showcase h2{font-size:clamp(30px,3.4vw,44px);font-weight:700;line-height:1.4;margin-top:24px;color:#121417;letter-spacing:-1px}
+.design-title-mark{display:flex;align-items:center;gap:10px;margin-top:12px}
+.design-title-mark:before{content:"";width:92px;height:7px;background:#ffe135}
+.design-title-mark:after{content:"";width:9px;height:9px;border-radius:50%;background:#0bbbdd}
+.design-gallery{margin-top:38px;background:#fff;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:104px 104px;padding:64px 100px 48px;align-items:start}
+.design-artwork{min-width:0;width:100%;max-width:490px;margin:0;justify-self:start}
+.design-artwork-square{max-width:300px}
+.design-artwork-image{min-height:300px;display:flex;align-items:center}
+.design-artwork img{display:block;width:100%;height:auto;object-fit:contain}
+.design-artwork figcaption{font-size:15px;line-height:1.6;display:flex;gap:15px;align-items:baseline;margin-top:20px;position:relative;padding-bottom:12px;color:#121417}
+.design-artwork figcaption:after{content:"";height:1px;background:#cbd0d4;width:150px;max-width:100%;position:absolute;bottom:0;left:0}
+.design-artwork-number{font-weight:650;color:#00839d;font-variant-numeric:tabular-nums}
+@media(min-width:768px) and (max-width:1023px){.design-showcase{padding-left:32px;padding-right:32px}.design-gallery{padding:48px 40px;gap:72px 56px}.design-artwork-image{min-height:240px}}
+@media(max-width:767px){.design-showcase{padding:0 20px 56px}.design-context{font-size:14px}.design-showcase h2{font-size:30px;margin-top:22px}.design-gallery{grid-template-columns:minmax(0,1fr);padding:36px 24px;gap:48px;margin-top:30px}.design-artwork{justify-self:center}.design-artwork-image{min-height:0}.design-artwork figcaption{font-size:14px;margin-top:18px}}
+
 @theme inline {
   --color-background: #f7f8f9;
   --color-foreground: #151719;
