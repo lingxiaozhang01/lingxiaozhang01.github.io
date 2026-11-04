@@ -3,6 +3,7 @@ import { ArrowDownRight, ArrowLeft, ArrowRight, ArrowUpRight, X } from 'lucide-r
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import HowItWorks from '@/components/ui/how-it-works';
 import DesignGallery from '@/components/DesignGallery';
+import IndustryReports from '@/components/IndustryReports';
 import { profile, projects, type Project } from '@/data';
 
 export default function App() {
@@ -56,6 +57,7 @@ export default function App() {
       </section>
       <section id="projects" className="projects-section" aria-labelledby="projects-title">
         <DesignGallery />
+        <IndustryReports />
         <div className="section-intro"><p className="section-kicker">我的探索轨迹</p><h2 id="projects-title">好奇心，把这些事连在一起。</h2><p>点开一个节点，走进当时发生的故事。</p></div>
         <HowItWorks features={projects} onSelect={selectProject} />
         <div className="journey-end"><span className="line-end" aria-hidden="true" /><p>下一次探索，还在发生。</p></div>
